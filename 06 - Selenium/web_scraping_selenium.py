@@ -3,7 +3,7 @@ from time import sleep
 
 navegador = webdriver.Chrome()
 
-navegador.get('https://www.walissonsilva.com/blog')
+navegador.get('https://www.youtube.com/')
 
 sleep(3)
 

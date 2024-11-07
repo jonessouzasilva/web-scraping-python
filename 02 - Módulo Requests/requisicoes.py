@@ -1,6 +1,6 @@
 import requests
 
-response = requests.get('https://www.walissonsilva.com/')
+response = requests.get('https://lobby.ikariam.gameforge.com/pt_BR/')
 
 print('Status code:', response.status_code)
 print('↓↓ Header ↓↓')

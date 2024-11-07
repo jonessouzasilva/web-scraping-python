@@ -7,15 +7,15 @@ content = response.content
 
 site = BeautifulSoup(content, 'html.parser')
 
-# HTML da notícia
+# HTML da noticia
 noticia = site.find('div', attrs={'class': 'feed-post-body'})
 
-# Título
+# Titulo
 titulo = noticia.find('a', attrs={'class': 'feed-post-link'})
 
 print(titulo.text)
 
-# Subtítulo: div class="feed-post-body-resumo"
-subtitulo = noticia.find('div', attrs={'class': 'feed-post-body-resumo'})
+# Subtitulo
+# subtitulo = noticia.find('div', attrs={'class': 'feed-post-body-resumo'})
 
-print(subtitulo.text)
+# print(subtitulo.text)
